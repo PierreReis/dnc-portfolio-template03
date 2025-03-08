@@ -14,3 +14,18 @@ ul li {
 ul li:last-child {
     padding-right: 5rem;
 }
+
+@media (max-width: 768px) {
+    ul {
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    ul li {
+        padding-right: 0;
+    }
+
+    ul li:last-child {
+        padding-right: 0;
+    }
+}
