@@ -1,0 +1,26 @@
+.presentation {
+    max-width: 31rem;
+    margin: 10rem 0 0 7rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .presentation {
+        text-align: center;
+        margin-left: 0;
+    }
+    .presentation p {
+        text-align: center;
+    }
+}
