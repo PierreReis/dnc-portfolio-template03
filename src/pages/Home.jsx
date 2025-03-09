@@ -4,6 +4,11 @@ import './Home.css'
 import Header from '../components/Header/Header'
 import Button from '../components/Button/Button'
 
+// ASSETS
+import Project1 from '../assets/project-1.svg'
+import Project2 from '../assets/project-2.svg'
+import Project3 from '../assets/project-3.svg'
+
 function Home() {
     return (
         <>
@@ -20,17 +25,41 @@ function Home() {
                     <p>Blog</p>
                     <div className='blog-grid'>
                         <div>
-                            <h2>Making a design system from scratch</h2>
+                            <h3>Making a design system from scratch</h3>
                             <span>12 Feb 2030</span>
                             <span>Design, Pattern</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                         </div>
                         <div>
-                            <h2>Creating pixel perfect icons in Figma</h2>
+                            <h3>Creating pixel perfect icons in Figma</h3>
                             <span>12 Feb 2030</span>
                             <span>Figma, Icon Design</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container project-section">
+                <p>Projetos</p>
+                <div className="d-flex project-container">
+                    <div><img src={Project1}/></div>
+                    <div className='project-info'>
+                        <h2>Designing Dashboards</h2>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div className="d-flex project-container">
+                    <div><img src={Project2}/></div>
+                    <div className='project-info'>
+                        <h2>Vibrant Portraits of 2020</h2>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div className="d-flex project-container">
+                    <div><img src={Project3}/></div>
+                    <div className='project-info'>
+                        <h2>36 Days of Malayalam type</h2>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
             </div>
