@@ -1,0 +1,16 @@
+footer {
+    margin: 7rem 0 3rem 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+.contacts {
+    justify-content: center;
+}
+
+.contacts img {
+    display: block;
+    margin: 1rem 1.5rem;
+}

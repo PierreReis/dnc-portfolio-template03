@@ -7,9 +7,15 @@ function Header() {
                 <header>
                     <nav>
                         <ul className='d-flex'>
-                            <li>Projetos</li>
-                            <li>Blog</li>
-                            <li>Contato</li>
+                            <a href="#projects">
+                                <li>Projetos</li>
+                            </a>
+                            <a href="#blog">
+                                <li>Blog</li>
+                            </a>
+                            <a href="#contact">
+                                <li>Contato</li>
+                            </a>
                         </ul>
                     </nav>
                 </header>
