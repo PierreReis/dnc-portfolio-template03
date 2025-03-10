@@ -1,0 +1,150 @@
+.presentation {
+    max-width: 31rem;
+    margin: 10rem 0 0 7rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;
+}
+
+.blog-section {
+    background: #EDF7FA;
+    max-width: 95%;
+    margin: 4rem 0 2rem 0;
+}
+
+.blog-section p:first-child {
+    padding: 1rem 0 1rem 7rem;
+    font-size: 1.5rem;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+}
+
+.blog-grid div {
+    background: #FFFFFF;
+    max-height: 20rem;
+    max-width: 80%;
+    padding: 1rem;
+}
+
+.blog-grid div p {
+    margin-top: 1rem;
+}
+
+.blog-grid div:first-child {
+    margin: 0 1rem 0 7rem;
+}
+
+.blog-grid div:last-child {
+    margin-right: 3rem;
+    justify-self: end;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin: 0 0 1rem 0;
+}
+
+span {
+    margin-right: 2rem;
+}
+
+.project-section p:first-child {
+    padding-left: 7rem;
+    font-size: 1.5rem;
+}
+
+.project-container {
+    padding: 3rem 0;
+    margin: 0 7rem;
+    border-bottom: .1rem solid #E0E0E0;
+}
+
+.project-container div img {
+    display: block;
+    margin-right: 3rem;
+}
+
+.project-info {
+    max-width: 70%;
+}
+
+h2 {
+    font-size: 700;
+    font-size: 1.9rem;
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .presentation {
+        text-align: center;
+        margin: 10rem auto;
+    }
+
+    .presentation p {
+        text-align: center;
+    }
+
+    .blog-section p:first-child {
+        padding: 1rem 0 1rem 2.5rem;
+    }
+
+    .blog-grid {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .blog-grid div {
+        max-width: 70%;
+        padding: 1rem;
+    }
+
+    .blog-grid div:first-child {
+        margin-left: 0;
+        justify-self: center;
+    }
+    
+    .blog-grid div:last-child {
+        margin-right: 0;
+        justify-self: center;
+    }
+
+    .project-section p:first-child {
+        padding: 0;
+        text-align: center;
+    }
+
+    .project-container{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .project-container div img {
+        margin: auto;
+    }
+
+    .project-info {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .project-info p {
+        text-align: center;
+    }
+
+    h2 {
+        margin: .5rem 0;
+    }
+}
