@@ -8,6 +8,7 @@ import Button from '../components/Button/Button'
 import Project1 from '../assets/project-1.svg'
 import Project2 from '../assets/project-2.svg'
 import Project3 from '../assets/project-3.svg'
+import Footer from '../components/Footer/Footer'
 
 function Home() {
     return (
@@ -20,7 +21,7 @@ function Home() {
                     <Button>Download resumo</Button>
                 </div>
             </div>
-            <div className="container">
+            <div id='blog' className="container">
                 <div className="blog-section">
                     <p>Blog</p>
                     <div className='blog-grid'>
@@ -39,7 +40,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container project-section">
+            <div id='projects' className="container project-section">
                 <p>Projetos</p>
                 <div className="d-flex project-container">
                     <div><img src={Project1}/></div>
@@ -62,6 +63,9 @@ function Home() {
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
+            </div>
+            <div id='contact' className='container'>
+                <Footer/>
             </div>
         </>
     )
